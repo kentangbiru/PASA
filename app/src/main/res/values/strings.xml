@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tugasCapstone.Pasa</string>
+    <string name="title_home">Home</string>
+    <string name="title_recommend">Recommendation</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_about">About</string>
+</resources>
