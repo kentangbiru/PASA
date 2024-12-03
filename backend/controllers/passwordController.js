@@ -1,4 +1,4 @@
-const PasswordService = require('../services/passwordService');
+const PasswordService = require('../src/services/passwordService');
 const passwordService = new PasswordService();
 
 class PasswordController {
