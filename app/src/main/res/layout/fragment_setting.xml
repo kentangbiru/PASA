@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Text "Click me!!" di bagian atas -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click me!!"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Switch untuk Dark Mode -->
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_dark_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:thumbTextPadding="8dp"
+        android:trackTint="@color/colorAccent" />
+
+    <!-- Text di bawah Switch -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To change the mode to match your mood"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

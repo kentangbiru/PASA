@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PASA</string>
+    <string name="title_home">Home</string>
+    <string name="title_recommend">Recommendation</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_about">About</string>
+
+    <string name="logo_desc">Logo aplikasi Password Strength Analyzer</string>
+    <string name="title_text">Let’s start checking</string>
+    <string name="analyze_button">Analyze</string>
+    <string name="toggle_password_visibility">Show or hide password</string>
+    <string name="password_hint">Enter password</string>
+    <string name="strength_medium">Medium</string>
+    <string name="criteria_min_length">• Minimal 8 karakter</string>
+    <string name="criteria_uppercase">• Mengandung huruf kapital</string>
+    <string name="criteria_number">• Mengandung karakter angka</string>
+    <string name="criteria_special_char">• Mengandung karakter spesial</string>
+
+    <string name="Center">Cennter</string>
+    <string name="Deskripsi">Password Strength Analyzer memberikan solusi sederhana namun efektif untuk meningkatkan keamanan akun Anda. Aplikasi ini melakukan evaluasi menyeluruh terhadap kekuatan kata sandi yang Anda gunakan, menilai apakah kata sandi tersebut cukup kuat untuk melindungi data pribadi Anda dari ancaman. Selain itu, aplikasi ini memberikan panduan langkah demi langkah untuk menciptakan kata sandi yang lebih kompleks dan aman, serta tips untuk menjaga data pribadi Anda tetap terlindungi dengan cara yang mudah diikuti.</string>
+
+    <string name="weak_strength">Weak</string>
+    <string name="medium_strength">Medium</string>
+    <string name="strong_strength">Strong</string>
+    <string name="unknown_strength">Unknown</string>
+    <string name="strength_text">Kekuatan Password: %1$s\nSaran: %2$s</string>
+
+    <string name="error_empty_password">Password cannot be empty</string>
+    <string name="error_password_length">Password must be at least 8 characters long</string>
+    <string name="error_no_internet">No internet connection. Please try again.</string>
+    <string name="error_failed_response">Failed to analyze password. Please try again later.</string>
+    <string name="error_api_failure">An error occurred: %1$s</string>
+
+</resources>

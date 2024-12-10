@@ -1,0 +1,141 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            android:contentDescription="@string/logo_desc"
+            android:src="@drawable/pasa_logo" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/title_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Password Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:elevation="4dp"
+            android:layout_marginHorizontal="16dp">
+
+            <EditText
+                android:id="@+id/password_input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/password_hint"
+                android:inputType="textPassword"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/password_toggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/toggle_password_visibility"
+                android:src="@drawable/ic_visibility_icon"
+                android:padding="4dp"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+        <!-- Strength Bar -->
+        <ProgressBar
+            android:id="@+id/strength_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:progress="0"
+            android:progressTint="@android:color/transparent"
+            android:indeterminate="false" />
+
+        <!-- Strength Text -->
+        <TextView
+            android:id="@+id/strength_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="16dp"
+            android:text="Password Strength"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray" />
+
+
+        <!-- Password Criteria -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/criteria_min_length"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/criteria_uppercase"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/criteria_number"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/criteria_special_char"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- Analyzer Button -->
+        <Button
+            android:id="@+id/analyze_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="16dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="@string/analyze_button"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>
